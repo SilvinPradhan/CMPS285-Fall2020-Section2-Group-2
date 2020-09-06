@@ -1,10 +1,10 @@
 import React from 'react';
 import './App.css';
-
+import HomePage from './pages/homepage/homepage.component.jsx';
 function App() {
   return (
     <div className="App">
-      <div><h1>ShopQuick Application</h1></div>
+      <HomePage />
     </div>
   );
 }
